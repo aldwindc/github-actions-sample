@@ -29,8 +29,8 @@ jobs:
           node-version: '20.x'
       - run: npm install
       - run: npm test
-
- deploy:
+      
+   deploy:
     needs: test 
     
     premissions:
